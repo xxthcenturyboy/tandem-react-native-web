@@ -1,9 +1,4 @@
 import React from 'react';
-import {
-  View,
-  Text,
-  TextInput,
-} from 'react-native';
 import { RootState, RootAction } from 'components/src/app/redux';
 import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
