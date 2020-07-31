@@ -1,0 +1,47 @@
+const colors = {
+  brand: {
+    lightBlue: '#2499c4',
+    darkBlue: '#1c2d5a',
+  },
+  colorMapFlashMessage: {
+    purple: 'hsl(268, 72%, 59%)',
+    pink: 'hsl(299, 79%, 47%)',
+    primary: 'mediumblue',
+    info: 'hsl(212, 72%, 59%)',
+    warning: 'darkorange',
+    danger: 'indianred'
+  },
+
+  black: '#000000',
+  grayLighter: '#e3e3e3',
+  grayLightest: '#f5f5f5',
+  grayDarker: '#595858',
+  grayDarkest: '#404042',
+  red: '#a61919',
+  redDarker: '#ce1a2c',
+  aliceBlue: 'hsl(208, 100%, 97%)',
+  aliceBlueDarker: '#bbdaf5',
+  blue: '#2a32c1',
+  blueLightest: '#4c669f',
+  blueDarker: '#070e82',
+  blueDarkest: '#001342',
+  blueLighter: '#4c51ad',
+  brandBlue: 'hsl(218, 76%, 53%)',
+  backgroundGradient: ['#4c669f', '#3b5998', '#192f6a'],
+  backgroundGradient2: ['#3532c1', '#24a3ff'],
+  solidGradient: ['#00113D', '#00113D'],
+  underlayColor: '#82858C',
+  successBright: 'hsl(86, 94%, 43%)',
+  warningBright: '#ffbb5c',
+  dangerBright: '#ae2424',
+  white: 'hsla(0, 0%, 100%, 1.00)',
+  grayLight: 'hsl(0, 0%, 90%)',
+  gray: 'hsl(0, 0%, 50%)',
+  grayDark: 'hsl(0, 0%, 23%)',
+  blueDark: 'hsla(223, 100%, 13%, 1.00)',
+  blueGray: 'hsla(214, 28%, 23%, 1.00)',
+  blueLight: 'hsla(196, 69%, 45%, 1.00)',
+  redError: 'hsl(0, 100%, 35%)',
+};
+
+export default colors;

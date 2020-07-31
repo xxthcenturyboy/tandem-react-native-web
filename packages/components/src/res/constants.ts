@@ -1,0 +1,10 @@
+export const COMPANY = 'myprojectname';
+export const APP = `${COMPANY} Mobile`;
+export const GOOGLE_API_KEY_IOS = ``;
+export const GOOGLE_API_KEY_ANDROID = ``;
+export const GOOGLE_OAUTH_CLIENT_ID = ``;
+export const GOOGLE_OAUTH_CLIENT_SECRET = ``;
+export const CONFIRM_EXP_SECONDS = 300;
+export const CONFIRM_DISPLAY_EXP = 1000 * 60 * 60 * 24; // one day
+export const APPLE_APP_ID = '';
+export const GOOGLE_PACKAGE_NAME = 'com.myprojectname.com';

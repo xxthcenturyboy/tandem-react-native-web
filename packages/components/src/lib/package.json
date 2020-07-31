@@ -1,0 +1,6 @@
+{
+  "name": "lib",
+  "devDependencies": {
+    "@types/react-native-custom-tabs": "^0.1.1"
+  }
+}

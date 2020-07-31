@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "isolatedModules": false,
+    "outDir": "dist",
+    "rootDir": "src",
+    "typeRoots": [
+      "@types",
+      "../../node_modules/@types",
+      "../../typings"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "redux-thunk": ["../../typings/redux-thunk"],
+      "src/*": ["src/*"],
+      "res/*": ["src/res/*"],
+      "lib/*": ["src/lib/*"]
+    }
+  }
+}

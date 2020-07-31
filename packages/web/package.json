@@ -1,0 +1,59 @@
+{
+  "name": "web",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.10.0",
+    "bignumber.js": "^9.0.0",
+    "lottie-react": "^2.0.0",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "numeral": "^2.0.6",
+    "patch-package": "^6.2.2",
+    "react": "16.12.0",
+    "react-art": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-native-web": "0.12.1",
+    "react-redux": "^7.2.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.3.1",
+    "redux": "^4.0.5",
+    "redux-form": "^8.3.6",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "styled-components": "^5.1.1",
+    "typesafe-actions": "^5.1.0"
+  },
+  "scripts": {
+    "compile": "tsc -b",
+    "prestart": "npm run compile",
+    "start": "concurrently \"npm run compile -- -w --incremental\" \"npm run _start\"",
+    "_start": "react-app-rewired start",
+    "prebuild": "npm run compile",
+    "build": "react-app-rewired build",
+    "pretest": "npm run compile",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/react-router-redux": "^5.0.18",
+    "babel-plugin-react-native-web": "0.12.1",
+    "concurrently": "5.1.0",
+    "react-app-rewired": "2.1.5",
+    "typescript": "3.7.5"
+  }
+}
