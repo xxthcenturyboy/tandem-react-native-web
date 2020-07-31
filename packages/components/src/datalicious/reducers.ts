@@ -62,11 +62,12 @@ const reducer = (state: State = initialState, action: Action): State => {
           ...state
         };
       }
-      state.dataSet.push(action.payload);
+      let arr = state.dataSet.slice();
+      arr.push(action.payload);
       return {
         ...state,
-        dataSet: state.dataSet,
-        dataPayload: ''
+        dataPayload: '',
+        dataSet: arr,
       }
     }
 

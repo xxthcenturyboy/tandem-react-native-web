@@ -5,7 +5,7 @@ export type State = {
   /**
    * Data Sets
    */
-  dataSet: DataSet | null;
+  dataSet: number[] | null;
   dataSetName: string;
   dataSetFileName: string;
   isFetchingData: boolean;
@@ -13,11 +13,6 @@ export type State = {
   didInvalidateData: boolean;
   dataPayload: string;
 }
-
-/**
- * Payload
- */
-export type DataSet = number[];
 
 export type DataFileInfo = {
   fileName: string;

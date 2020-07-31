@@ -32,7 +32,7 @@ class Datalicous extends React.Component<Props, State> {
   }
 
   renderDataInput(): JSX.Element {
-    const { dataPayload, setDataInput, addToSet } = this.props;
+    const { dataPayload, setDataInput, addToSet, data } = this.props;
     return (
       <UI.DataInputContainer>
         <UI.DataInput
@@ -42,7 +42,11 @@ class Datalicous extends React.Component<Props, State> {
           onChangeText={(text) => setDataInput(text)}
         />
         <UI.DataInputSubmit
-          onPress={() => addToSet(Number(dataPayload))}
+          onPress={() => {
+            const value = Number(dataPayload);
+            if (isNaN(value)) return;
+            addToSet(Number(dataPayload));
+          }}
           disabled={!dataPayload}
         >
           <UI.DataInputSubmitLabel>{R.strings.ADD_TO_SET}</UI.DataInputSubmitLabel>

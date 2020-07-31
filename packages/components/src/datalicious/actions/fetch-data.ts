@@ -1,6 +1,5 @@
 import { createAsyncAction } from 'typesafe-actions';
 import { Dispatch } from 'redux';
-import { DataSet } from 'components/src/datalicious/types';
 import { DataFiles } from 'components/src/datalicious/lib/file-enum';
 import { data as data1234 } from 'components/src/datalicious/lib/mock/data-1234.json';
 import { data as data4321 } from 'components/src/datalicious/lib/mock/data-4321.json';
@@ -9,7 +8,7 @@ export const fetchData = createAsyncAction(
   'DATALICIOUS:FETCH_DATA',
   'DATALICIOUS:FETCH_DATA_SUCCESS',
   'DATALICIOUS:FETCH_DATA_FAILURE'
-)<undefined, DataSet, string>();
+)<undefined, number[], string>();
 
 const fetchDataSet = (dataFile: DataFiles) => async (dispatch: Dispatch) => {
   if (!dataFile) {
