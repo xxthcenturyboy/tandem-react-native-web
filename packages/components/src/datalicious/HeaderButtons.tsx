@@ -1,8 +1,4 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  StatusBar,
-} from 'react-native';
 import { RootState } from 'components/src/app/redux';
 import { useDispatch, useSelector } from 'react-redux';
 import { DataFileMap } from 'components/src/datalicious/types';
@@ -73,7 +69,6 @@ export function HeaderButtons() {
         label={dataFileMeta[DataFiles.DATA4321].dataSetName}
         width={100}
       />
-
     </UI.ButtonRow>
   );
 };
