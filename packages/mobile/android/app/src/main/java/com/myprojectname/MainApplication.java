@@ -1,4 +1,4 @@
-package com.myprojectname;
+package com.tandem;
 
 import android.app.Application;
 import android.content.Context;

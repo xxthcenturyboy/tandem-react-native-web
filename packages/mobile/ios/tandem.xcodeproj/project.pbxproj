@@ -235,7 +235,7 @@
 			dependencies = (
 			);
 			name = "tandem-tvOS";
-			productName = "myprojectname-tvOS";
+			productName = "tandem-tvOS";
 			productReference = 2D02E47B1E0B4A5D006451C7 /* tandem-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -253,7 +253,7 @@
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
 			name = "tandem-tvOSTests";
-			productName = "myprojectname-tvOSTests";
+			productName = "tandem-tvOSTests";
 			productReference = 2D02E4901E0B4A5D006451C7 /* tandem-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -650,7 +650,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "myprojectname-tvOS/Info.plist";
+				INFOPLIST_FILE = "tandem-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -677,7 +677,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "myprojectname-tvOS/Info.plist";
+				INFOPLIST_FILE = "tandem-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -703,7 +703,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "myprojectname-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "tandem-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -729,7 +729,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "myprojectname-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "tandem-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
